@@ -5,7 +5,7 @@ from visualization import plot_calls_by_reason, plot_calls_by_day, plot_calls_pe
 
 def main():
     """Main function to execute data analysis."""
-    file_path = '../data/911.csv'
+    file_path = '/workspaces/911_quiz/911.csv'
     df = load_data(file_path)
     
     explore_data(df)
